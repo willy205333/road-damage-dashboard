@@ -61,7 +61,7 @@ def local_css():
     </style>
     """, unsafe_allow_html=True)
 
-def load_data(file_path='dummy_data.csv'):
+def load_data(file_path='dummy_data_yogyakarta.csv'):
     """Load data dari file CSV"""
     try:
         data = pd.read_csv(file_path)
